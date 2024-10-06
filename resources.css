@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c3c;
+    color: white;
+}
+
+header {
+    background-color: #2b2d5c;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.astronaut-icon {
+    width: 50px;
+    margin-right: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 300px;
+}
+
+.article img {
+    width: 100%;
+    max-width: 500px; 
+    height: auto;
+    border-radius: 10px; 
+    margin: 10px 0;
+}
+
+
+.article h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.article p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.recommendations h2 {
+    margin-top: 40px;
+}
+
+.recommendation-content {
+    margin-top: 20px;
+}
+
+.learn-more {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    background-color: #ff5a5a;
+}
+
+
+.watch-now {
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.watch-now:hover {
+    background-color: white; 
+    color: black;
+}
+
+
+.watch-now:active {
+    background-color: black; 
+    color: white; 
+}

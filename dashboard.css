@@ -1,0 +1,30 @@
+body {
+    background-color: #1f2066; /* Dark space blue */
+    background-image: url('background-sky.png'); /* Space-themed background */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.1); /* Transparent card style */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3); /* Glowing effect */
+    backdrop-filter: blur(10px);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .glow-effect {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+  
+  .space-border {
+    border-radius: 10px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+  }
+  

@@ -1,0 +1,37 @@
+body {
+    background-color: #1f2066; /* Dark space blue */
+    background-image: url('background-sky.png'); /* Space-themed background */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+main {
+    padding: 20px;
+}
+
+.about-section {
+    margin: 20px 0;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-member {
+    background: #e2e2e2;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #35424a;
+    color: #ffffff;
+}

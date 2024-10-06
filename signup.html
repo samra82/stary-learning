@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stary Learning - signup</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="signup.css"> 
+</head>
+<body class="bg-gray-900 text-white background-image: url('backgroung-sky.png')">
+
+  <!-- Navbar -->
+  <header class="bg-[#1E013B] p-4 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-4">
+        <!-- Logo -->
+        <img src="logo.png" alt="Stary Learning Logo" class="w-15 h-10">
+        <span class="text-xl font-bold">STARY LEARNING</span>
+      </div>
+      <!-- Navigation Links -->
+      <nav class="space-x-6 text-sm">
+        <a href="home.html" class="hover:text-gray-300">Home</a>
+        <a href="how it works.html" class="hover:text-gray-300">How It Works</a>
+        <a href="skyChart.html" class="hover:text-gray-300">Sky Chart</a>
+        <a href="exoplanets.html" class="hover:text-gray-300">Exoplanets</a>
+        <a href="constellations.html" class="hover:text-gray-300">Constellations</a>
+        <a href="resources.html" class="hover:text-gray-300">Resources</a>
+        <a href="comunity.html" class="hover:text-gray-300">Community</a>
+      </nav>
+      <!-- login Button -->
+      <a href="login.html" class="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-full">Login</a>
+    </div>
+  </header>
+
+  <!-- signup Section -->
+  <section class="min-h-screen flex items-center justify-center bg-gray-900 rounded-full">
+    <div class="bg-[#1E013B] rounded-lg shadow-lg p-10 text-center relative w-full max-w-md glow-effect">
+      
+      <h1 class="text-3xl font-bold mb-8">Start Your Journey</h1>
+
+      <!-- Login Form -->
+      <form id="signupForm" class="space-y-6">
+        
+        <!-- Name Input -->
+        <div class="relative">
+          <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            placeholder="Enter your Name" 
+            class="w-full px-4 py-3 bg-gray-800 text-white rounded-lg glow-effect focus:outline-none"
+            required
+          >
+          <span class="absolute left-[-40px] top-[-20px]  transform -translate-y-1/2">
+            <img src="name.png" alt="Icon" class="w-20 h-20">
+          </span>
+        </div>
+        
+        <!-- Email Input -->
+        <div class="relative">
+          <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            placeholder="Enter your Email" 
+            class="w-full px-4 py-3 bg-gray-800 text-white rounded-lg glow-effect focus:outline-none"
+            required
+          >
+        </div>
+        
+        <!-- Password Input -->
+        <div class="relative">
+          <input 
+            type="password" 
+            id="password" 
+            name="password" 
+            placeholder="Enter Password" 
+            class="w-full px-4 py-3 bg-gray-800 text-white rounded-lg glow-effect focus:outline-none"
+            required
+          >
+        </div>
+        
+        <!-- Unlock Button -->
+        <button 
+          type="submit" 
+          class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-6 rounded-full">
+          Unlock
+        </button>
+        
+      </form>
+
+      <!-- Floating Astronaut Image on Right -->
+      <div class="absolute right-[-200px] bottom-0">
+        <img src="astronaut-ride-rocket-ship.png" alt="Astronaut" class="w-80 h-full float">
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script> <!-- Link to external JS file -->
+
+<footer class="bg-gray-900 text-gray-300 py-10 px-5">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <!-- Logo and Description -->
+      <div class="space-y-4">
+        <h1 class="text-3xl font-bold text-white">Stary Learning</h1>
+        <p class="text-gray-400">"Exploring the Universe of Knowledge"</p>
+        <p class="text-gray-400">Discover the stars, constellations, and more. Your journey to the cosmos starts here.</p>
+      </div>
+  
+      <!-- Quick Links -->
+      <div class="space-y-4">
+        <h2 class="text-xl font-bold text-white">Quick Links</h2>
+        <ul class="space-y-2">
+          <li><a href="how it works.html" class="hover:text-white">How It Works</a></li>
+          <li><a href="skyChart.html" class="hover:text-white">Sky Chart</a></li>
+          <li><a href="exoplanets.html" class="hover:text-white">Exoplanets</a></li>
+          <li><a href="comunity.html" class="hover:text-white">Constellations</a></li>
+          <li><a href="resources.html" class="hover:text-white">Resources</a></li>
+          <li><a href="comunity.html" class="hover:text-white">Community</a></li>
+        </ul>
+      </div>
+  
+      <!-- Social Media -->
+      <div class="space-y-4">
+        <h2 class="text-xl font-bold text-white">Follow Us</h2>
+        <p class="text-gray-400">Join us on our social media platforms to stay updated on the latest space explorations.</p>
+        <div class="flex space-x-4">
+          <a href="#" class="text-gray-400 hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M24 4.5c-.9.4-1.8.7-2.8.8 1-1 1.7-2.3 2-3.9-.9.9-2 1.5-3.2 1.8C19.2 2.2 17.9 1.5 16.5 1.5c-2.5 0-4.5 2.2-4.5 4.8 0 .4 0 .8.1 1.1-3.7-.2-7-2-9.2-4.7-.4.8-.6 1.7-.6 2.7 0 1.7.8 3.2 2 4-.7 0-1.4-.3-2-.6 0 2.4 1.7 4.3 3.9 4.8-.4.2-.9.2-1.3.2-.3 0-.6 0-.8-.1.6 2 2.4 3.5 4.5 3.5-1.6 1.3-3.6 2-5.7 2-.4 0-.8 0-1.2-.1 2 1.5 4.3 2.5 6.8 2.5 8.2 0 12.7-7 12.7-13.1v-.6c.9-.7 1.7-1.5 2.3-2.4z"/>
+            </svg>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M19.6 3h-15C3.7 3 3 3.7 3 4.6v15c0 .9.7 1.6 1.6 1.6h7.5v-6.8h-2v-2.7h2v-2.2c0-2.1 1.2-3.2 3-3.2.9 0 1.9.1 2.4.1v2.6h-1.4c-1.1 0-1.3.5-1.3 1.2v1.6h2.7l-.4 2.7h-2.2V21h4.4c.9 0 1.6-.7 1.6-1.6v-15c0-.9-.7-1.6-1.6-1.6z"/>
+            </svg>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M23.5 5.7c-.9.4-1.7.7-2.6.9.9-.6 1.6-1.5 2-2.6-.9.6-1.8 1-2.8 1.3-.8-.8-1.9-1.3-3.1-1.3-2.3 0-4.1 1.9-4.1 4.2 0 .3 0 .7.1 1-3.4-.2-6.4-1.8-8.4-4.3-.3.6-.5 1.3-.5 2 0 1.4.7 2.7 1.8 3.4-.6 0-1.2-.2-1.8-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.2-1 .2-.3 0-.5 0-.8-.1.6 2 2.5 3.4 4.6 3.5-1.7 1.3-3.7 2-5.8 2-.4 0-.8 0-1.2-.1C1.8 21.4 4 22 6.3 22c7.6 0 11.8-6.3 11.8-11.7v-.5c.8-.6 1.5-1.4 2.1-2.3z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-10 text-sm">
+      <p class="text-gray-400">&copy; 2023 Stary Learning. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

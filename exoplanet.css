@@ -1,0 +1,15 @@
+/* styles.css */
+
+/* Custom styles for exoplanet cards */
+.exoplanet-card {
+    transition: transform 0.2s;
+  }
+  .exoplanet-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Custom styles for the footer */
+  footer {
+    border-top: 1px solid #4B5563; /* Tailwind's gray-600 */
+  }
+  

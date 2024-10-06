@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Space</title>
+    <link rel="stylesheet" href="resources.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">How it Works</a></li>
+                <li><a href="#">Sky Chart</a></li>
+                <li><a href="#">Exoplanets</a></li>
+                <li><a href="#">Constellations</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-section">
+        <h1>"Explore Space, Learn Something New!"</h1>
+
+        <div class="search-container">
+            <img src="astronaut.png" alt="Astronaut Icon" class="astronaut-icon">
+            <input type="text" placeholder="Search HERE" id="searchInput">
+        </div>
+
+        <div class="recommendations">
+            <h2>Articles Recommendation</h2>
+            <div class="article-recommendation">
+                <div class="recommendation-content" id="nasaArticles">
+                    <!-- NASA Articles will be fetched and displayed here -->
+                </div>
+                <button class="learn-more" onclick="fetchNasaArticles()">Learn More</button>
+            </div>
+
+            <h2>Video Recommendation</h2>
+            <div class="video-recommendation">
+                <div class="recommendation-content" id="youtubeVideos">
+                    <!-- YouTube videos will be fetched and displayed here -->
+                </div>
+                <button class="learn-more" onclick="fetchYoutubeVideos()">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="resources.js"></script>
+</body>
+</html>
