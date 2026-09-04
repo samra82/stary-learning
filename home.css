@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('backgroung-sky.png');
+  }
+  
+  .navbar {
+    background-color: #1E013B;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-button {
+    background-color: #ef4444;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-weight: 600;
+  }
+  
+  .hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('home-background.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-content {
+    background-color: #1e013b80;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 250px;
+  }
+  
+  .hero-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+    color:#FFFADC;
+  }
+  
+  .cta-button {
+    background-color: #ef4444;
+    padding: 1rem 2rem;
+    border-radius: 9999px;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+  
+.cta-container{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 80%;
+    left: 50%;  
+  } 
+
+  .astronaut {
+    position: absolute;
+    left: 180px;
+    bottom: 370px;
+    animation: float 4s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .planet-1, .planet-2 {
+    position: absolute;
+  }
+  
+  .planet-1 {
+    top: 4rem;
+    right: 5rem;
+    animation: spin-slow 20s linear infinite;
+  }
+  
+  .planet-2 {
+    bottom: 2rem;
+    left: 6rem;
+    animation: spin-slow 25s linear infinite;
+  }
+  
+  @keyframes spin-slow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(background.png);
+  }
+
+  .navbar {
+    background-color: #1E013B;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-button {
+    background-color: #ef4444;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-weight: 600;
+  } 
+  
+  .glow-effect {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+  }
+  
+  .float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+

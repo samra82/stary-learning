@@ -1,0 +1,40 @@
+body {
+    background-color:  #1E013B;
+    background-image: url('background-sky.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+ .navbar {
+    background-color: #1E013B;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    justify-content: space-between;
+    justify-items: center;
+    color: white;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .glow-effect {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+  
+  .space-border {
+    border-radius: 10px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+  }
+  

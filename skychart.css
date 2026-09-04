@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color:  #1E013B;
+    background-image: url(background.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    overflow: hidden;
+  }
+
+ .navbar {
+    background-color: #1E013B;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    justify-content: space-between;
+    justify-items: center;
+    color: white;
+  }
+  .chart-container {
+    width: 100px; 
+    height: 100px; 
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: #111;
+    border: 1px solid #fff;
+  }
+  
+

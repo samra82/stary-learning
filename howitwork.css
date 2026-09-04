@@ -1,0 +1,46 @@
+body {
+    background-color:  #1E013B;
+    background-image: url('background-sky.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+ .navbar {
+    background-color: #1E013B;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    justify-content: space-between;
+    justify-items: center;
+    color: white;
+  }
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e94560;
+}
+.step {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #0f3460;
+    border-radius: 5px;
+}
+.step h2 {
+    color: #e94560;
+}
+.back-button {
+    text-align: center;
+    margin-top: 30px;
+}
+.back-button a {
+    color: #fff;
+    background-color: #e94560;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.back-button a:hover {
+    background-color: #c53b5c; /* Darker shade on hover */
+}

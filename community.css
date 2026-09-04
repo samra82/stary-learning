@@ -1,0 +1,23 @@
+body {
+    background-color:  #1E013B;
+    background-image: url('background-sky.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+ .navbar {
+    background-color: #1E013B;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    justify-content: space-between;
+    justify-items: center;
+    color: white;
+  }
+  
+.post {
+    background-color: #1E013B;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,33 @@
+body {
+    background-color:  #1E013B;
+    background-image: url('background-sky.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+ .navbar {
+    background-color: #1E013B;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    justify-content: space-between;
+    justify-items: center;
+    color: white;
+  }
+
+.glow-effect {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+.float {
+    animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+

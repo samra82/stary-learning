@@ -1,0 +1,27 @@
+body {
+  background-color:  #1E013B;
+  background-image: url('background-sky.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  background-color: #1E013B;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  justify-content: space-between;
+  justify-items: center;
+  color: white;
+}
+
+.exoplanet-card {
+    transition: transform 0.2s;
+  }
+  .exoplanet-card:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    border-top: 1px solid #4B5563; /* Tailwind's gray-600 */
+  }
