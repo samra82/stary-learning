@@ -1,17 +1,16 @@
-// NASA Exoplanet TAP API Endpoint
-const API_KEY = 'NASA_API_KEY'; // Replace with your key from api.nasa.gov or use 'DEMO_KEY'
+const API_KEY = 'YOUR_NASA_API_KEY';
 const QUERY = "SELECT pl_name, pl_bmassj, pl_rade, sy_dist FROM ps WHERE default_flag = 1";
-const API_URL = `https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=${encodeURIComponent(QUERY)}&format=json&api_key=${API_KEY}`;
+const TARGET_URL = `https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=${encodeURIComponent(QUERY)}&format=json&api_key=${API_KEY}`;
+
+// Wrap the target URL in a CORS proxy
+const API_URL = `https://corsproxy.io/?${encodeURIComponent(TARGET_URL)}`;
 
 async function fetchExoplanets() {
     try {
         const response = await fetch(API_URL);
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const exoplanets = await response.json();
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         
-        // Render first 50 results as an example
+        const exoplanets = await response.json();
         displayExoplanets(exoplanets.slice(0, 50));
     } catch (error) {
         console.error('Error fetching exoplanets:', error);
